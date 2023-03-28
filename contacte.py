@@ -75,8 +75,8 @@ while True:
         nouveau_numero = int(input("veuillez entrez votre nouveau numero"))
         personne.modifier_contact(ancien_numero, nouveau_numero)
         print("Contact modifié avec succès !")
-        conn.commit()
-        
+        conn.commit() 
+            
     elif choix=='3':
         personne.supprimer_contact()
         print("Contact supprimé avec succès !")
